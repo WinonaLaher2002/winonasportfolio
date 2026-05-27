@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winona B. Laher - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="assets/icons/icon.png">
+</head>
+<body>
+  <nav>
+    <a href="#home" class="nav-logo">W. Laher</a>
+    <div class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to dark mode">
+        <img class="theme-icon" src="assets/icons/dark.png" alt="" aria-hidden="true">
+      </button>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="hero-left">
+      <p class="hero-tag">Developer & Visual Designer</p>
+      <h1 class="hero-name">
+        Winona<br>
+        <em>B. Laher</em>
+      </h1>
+      <p class="hero-sub">
+        Building soft, aesthetic, and functional digital experiences where clean code meets thoughtful design, and every interface feels like a gentle, welcoming space.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Say Hello</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-photo-wrap">
+        <img src="https://winona-s-portfolio.vercel.app/assets/imgs/img.jpg" alt="Winona Laher" onerror="this.style.display='none'">
+      </div>
+      <div class="hero-deco">Lucky Leaf Creative Dev</div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">Crafting experiences that<br><em>feel as good as they look</em></h2>
+    <div class="leaf-divider">
+      <span></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 7-8 7z"/></svg>
+      <span></span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <div class="about-philosophy">
+          <h3>My Design Philosophy</h3>
+          <p>
+            Inspired by pastel and limited color palettes, cozy themes, handwritten elements, and nature visuals. I work intentionally with two to three color combinations to create balanced, calming, and cohesive designs.
+          </p>
+        </div>
+        <div class="about-traits">
+          <div class="about-trait">Clean, semantic HTML and well-structured CSS</div>
+          <div class="about-trait">Responsive, accessible, and user-friendly layouts</div>
+          <div class="about-trait">Strategic color palette planning for cohesion</div>
+          <div class="about-trait">Strong typography and visual hierarchy awareness</div>
+          <div class="about-trait">Campaign-based thinking for social media content</div>
+          <div class="about-trait">Attention to detail in both code and creative execution</div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p>Hi! I'm Winona B. Laher, also known as <strong>LuckyLeaf</strong>. I'm a front-end developer and visual designer who enjoys creating soft, aesthetic, and functional digital experiences.</p>
+        <p>I blend clean code with thoughtful design to build interfaces and visual content that feel smooth, intuitive, and emotionally engaging. My work extends beyond websites; I also design social media campaigns, themed content series, and digital graphics that maintain brand consistency and strategic color harmony.</p>
+        <p>I believe good design should not only look beautiful, but also communicate clearly and connect meaningfully. Every line of code I write and every visual I design is part of my growth journey as a creative developer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-label">Skills & Tools</div>
+    <h2 class="section-title">What I bring<br><em>to every project</em></h2>
+    <div class="leaf-divider">
+      <span></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 7-8 7z"/></svg>
+      <span></span>
+    </div>
+
+    <div class="skills-wrapper">
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">JavaScript</span><span class="skill-tag">TypeScript</span><span class="skill-tag">PHP</span><span class="skill-tag">Python</span><span class="skill-tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Frameworks & Libraries</div>
+        <div class="skill-tags">
+          <span class="skill-tag">React.js</span><span class="skill-tag">Electron.js</span><span class="skill-tag">Node.js</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Databases & Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">Supabase</span><span class="skill-tag">Firebase</span><span class="skill-tag">EmailJS</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Deployment & Tools</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Vercel</span><span class="skill-tag">Git & GitHub</span><span class="skill-tag">VS Code</span><span class="skill-tag">Laragon</span><span class="skill-tag">InfinityFree</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Design & Creative</div>
+        <div class="skill-tags">
+          <span class="skill-tag">UI/UX Design</span><span class="skill-tag">Figma</span><span class="skill-tag">Canva</span><span class="skill-tag">Pixso</span><span class="skill-tag">Wireframing</span><span class="skill-tag">Typography</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Additional Skills</div>
+        <div class="skill-tags">
+          <span class="skill-tag">SEO Optimization</span><span class="skill-tag">WordPress</span><span class="skill-tag">Social Media Design</span><span class="skill-tag">Visual Storytelling</span><span class="skill-tag">Godot Engine</span><span class="skill-tag">CapCut</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <h2 class="section-title">Recent works &<br><em>personal experiments</em></h2>
+    <div class="leaf-divider">
+      <span></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 7-8 7z"/></svg>
+      <span></span>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-number">01</div>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span></div>
+        <h3 class="project-title">My Sugar Care</h3>
+        <p class="project-desc">A calming blood sugar tracking web app designed during a personal health journey. Focuses on gentle feedback, stress-free tracking, and a cozy user experience.</p>
+        <div class="project-links">
+          <a href="https://my-sugar-care.vercel.app/" class="project-link" target="_blank" rel="noreferrer">Live Demo</a>
+          <a href="https://github.com/WinonaLaher2002/My-Sugar-Care.git" class="project-link" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-number">02</div>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span></div>
+        <h3 class="project-title">Vinyl Music Player</h3>
+        <p class="project-desc">A front-end music player project focused on interface design and layout styling, simulating a vinyl-themed music experience with interactive visual elements.</p>
+        <div class="project-links">
+          <a href="https://vinvylmusicplayer.vercel.app/" class="project-link" target="_blank" rel="noreferrer">Live Demo</a>
+          <a href="https://github.com/WinonaLaher2002/vinvylmusicplayer.git" class="project-link" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-number">03</div>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Tkinter</span><span class="project-tag">SQL</span></div>
+        <h3 class="project-title">Library Management System</h3>
+        <p class="project-desc">A Python-based system to manage library records efficiently with full CRUD operations, showcasing backend fundamentals and program logic.</p>
+        <div class="project-links">
+          <a href="https://github.com/WinonaLaher2002/LibraryManagementSystem.git" class="project-link" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-number">04</div>
+        <div class="project-tags"><span class="project-tag">React</span><span class="project-tag">HTML</span><span class="project-tag">CSS</span></div>
+        <h3 class="project-title">My StudySet Go PH</h3>
+        <p class="project-desc">A JavaScript-based learning tool to help users organize and review study materials through interactive features and basic logic handling.</p>
+        <div class="project-links">
+          <a href="https://github.com/WinonaLaher2002/My-StudySetGoPh.git" class="project-link" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card featured reveal">
+        <div class="project-number">05</div>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span><span class="project-tag">PHP</span><span class="project-tag">MySQL</span></div>
+        <h3 class="project-title">E-Commerce Shop for Fatimanians Technocrats</h3>
+        <p class="project-desc">A full e-shop website using pure HTML, CSS, PHP, and MySQL. Features registration, login, product listings, a shopping cart, and database-driven content.</p>
+        <div class="project-links">
+          <a href="http://www.eshopfatimanianstechnocrats.42web.io/" class="project-link" target="_blank" rel="noreferrer">Live Demo</a>
+          <a href="https://github.com/WinonaLaher2002/eshopfatimanianstechnocrats.git" class="project-link" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="graphic">
+    <div class="section-label">Graphic & Social Media Work</div>
+    <h2 class="section-title">Visual campaigns &<br><em>digital graphics</em></h2>
+    <div class="leaf-divider">
+      <span></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 7-8 7z"/></svg>
+      <span></span>
+    </div>
+
+    <p class="graphic-section-title reveal">Holy Week Social Media Series</p>
+    <p class="graphic-caption reveal">A themed multi-post campaign designed with a consistent two to three color palette and cohesive visual storytelling.</p>
+    <div class="graphic-grid reveal">
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/done ()Palaspas.jpg" alt="Palm Sunday" onerror="this.parentElement.style.background='var(--blush)'"></div>
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/30.jpg" alt="Maundy Thursday" onerror="this.parentElement.style.background='var(--blush)'"></div>
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/Good Friday.jpg" alt="Good Friday" onerror="this.parentElement.style.background='var(--blush)'"></div>
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/Black Saturday.jpg" alt="Black Saturday" onerror="this.parentElement.style.background='var(--blush)'"></div>
+    </div>
+
+    <p class="graphic-section-title reveal">Holiday & Awareness Graphics</p>
+    <p class="graphic-caption reveal">A collection of event-based and holiday graphics designed with intentional color pairing, typography balance, and platform-ready layouts.</p>
+    <div class="graphic-grid reveal">
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/Mother's Day.jpg" alt="Mother's Day" onerror="this.parentElement.style.background='var(--blush)'"></div>
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/June 15 Fathers Day.jpg" alt="Father's Day" onerror="this.parentElement.style.background='var(--blush)'"></div>
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/Christmas%20Day%20%E2%80%93%20December%2025.jpg" alt="Christmas" onerror="this.parentElement.style.background='var(--blush)'"></div>
+      <div class="graphic-img"><img src="https://winona-s-portfolio.vercel.app/assets/imgs/_Last%20Day%20of%20the%20Year%20%E2%80%93%20December%2031.jpg" alt="New Year" onerror="this.parentElement.style.background='var(--blush)'"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Let's work together<br><em>or just say hi</em></h2>
+    <div class="leaf-divider">
+      <span></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 7-8 7z"/></svg>
+      <span></span>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>I'd love to hear from you</h3>
+        <p>Whether you have a project in mind, want to collaborate, or simply want to say hello, my inbox is always open.</p>
+        <a href="mailto:laherwinonab@aol.com" class="contact-email">laherwinonab@aol.com</a>
+        <p class="contact-note">I usually respond within 24 to 48 hours.</p>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me all about it" required></textarea>
+        </div>
+        <button type="submit" class="form-submit" id="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <div class="footer-name">Winona B. Laher</div>
+      <div class="footer-note">Developer - Visual Designer - LuckyLeaf</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/urcutiewin/" target="_blank" rel="noreferrer" aria-label="Facebook">
+        <img src="assets/icons/facebook.png" alt="">
+      </a>
+      <a href="mailto:laherwinonab@aol.com" aria-label="Email">
+        <img src="assets/icons/mail.png" alt="">
+      </a>
+      <a href="https://github.com/WinonaLaher2002" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <img class="github-icon" src="assets/icons/github.png" alt="">
+      </a>
+      <a href="https://luckyleafartstudio.nekoweb.org/" target="_blank" rel="noreferrer" aria-label="Nekoweb">
+        <img src="assets/icons/Nekoweb.png" alt="">
+      </a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
+
